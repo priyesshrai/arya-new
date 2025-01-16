@@ -36,7 +36,7 @@ export default function () {
           <Link href="/cv.pdf" download="Arya_Maurya_Resume.pdf">
             Download CV
           </Link>
-          <Link href="/cv.pdf" download="Arya_Maurya_Resume.pdf">
+          <Link href="/portfolio.pdf" download="Arya_Maurya_Portfolio.pdf">
             Download Portfolio
           </Link>
         </div>
