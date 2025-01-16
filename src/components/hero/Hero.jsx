@@ -159,7 +159,7 @@ export default function Hero() {
                     height={500}
                   />
                   <div>
-                    <p>500+</p>
+                    <p>50+</p>
                     <span>Completed Projects</span>
                   </div>
                 </div>

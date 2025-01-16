@@ -16,7 +16,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/about"
+              href="#"
               className={pathname.startsWith("/about") ? "active-link" : ""}
             >
               About
@@ -24,7 +24,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/services"
+              href="#"
               className={pathname.startsWith("/services") ? "active-link" : ""}
             >
               Services
@@ -37,7 +37,7 @@ export default function Navbar() {
         <ul className="link-ul">
           <li>
             <Link
-              href="/portfolio"
+              href="#"
               className={pathname.startsWith("/portfolio") ? "active-link" : ""}
             >
               Portfolio
@@ -45,7 +45,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="certificats"
+              href="#"
               className={
                 pathname.startsWith("/certificats") ? "active-link" : ""
               }
@@ -55,7 +55,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="/contact"
+              href="#"
               className={pathname.startsWith("/contact") ? "active-link" : ""}
             >
               contact us

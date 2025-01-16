@@ -56,7 +56,7 @@ export default function Portfolio() {
             }}
           >
             {tabContent[activeTab].map((card, index) => (
-              <div className="card" key={index}>
+              <div className={`card ${activeTab === 'Instagram Post' ? "insta-card" : ""} `} key={index}>
                 <Fancybox>
                   <div data-fancybox="gallery" href={card?.imageUrl}>
                     <Image

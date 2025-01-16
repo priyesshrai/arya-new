@@ -7,7 +7,7 @@ export default function Headline() {
       <div className="section-wraper">
         <BackgroundBeamsWithCollision>
           <h2
-            className="text-2xl relative z-20 md:text-4xl lg:text-8xl font-bold text-center text-[#ededed] tracking-tight"
+            className="text-2xl relative z-20 md:text-4xl lg:text-6xl font-bold text-center text-[#ededed] tracking-tight"
             style={{
               fontFamily: "var(--font-syne)",
               fontWeight: "700",

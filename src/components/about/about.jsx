@@ -15,19 +15,28 @@ export default function About() {
             </div>
             <div className="section-description">
               <p>
-                Hi, I’m Arya — a passionate Graphic Designer and UI/UX Designer
+                Hi, I’m Arya — a passionate{" "}
+                <strong style={{ fontSize: "1.3rem" }}>
+                  {" "}
+                  Graphic Designer and UI/UX Designer{" "}
+                </strong>
                 with 2 years of experience transforming ideas into visually
                 compelling designs. I specialize in branding, social media
                 graphics, and intuitive UI/UX design that not only look stunning
                 but also create meaningful user experiences.
               </p>
+              <br />
               <p>
-                Proficient in industry-leading tools like Adobe Creative Suite
-                (Photoshop, Illustrator, InDesign) and Figma, I have a keen eye
-                for detail and a creative approach to problem-solving. My goal
-                is to deliver designs that connect with audiences and align with
-                client goals.
+                Proficient in industry-leading tools like{" "}
+                <strong style={{ fontSize: "1.3rem" }}>
+                  Adobe Creative Suite (Photoshop, Illustrator, InDesign) and
+                  Figma
+                </strong>
+                , I have a keen eye for detail and a creative approach to
+                problem-solving. My goal is to deliver designs that connect with
+                audiences and align with client goals.
               </p>
+              <br />
               <p>
                 Driven by curiosity and a love for innovation, I stay up-to-date
                 with the latest design trends to bring fresh ideas to every
@@ -39,14 +48,14 @@ export default function About() {
             <div className="section-social-media">
               <span>Follow Me</span>
               <div className="social-logo">
-                <a href="#">
+                <a href="https://www.instagram.com/arya_m_aurya/">
                   <InstagramIcon size={50} color={"#fff"} variant={"stroke"} />
                 </a>
-                <a href="#">
-                  <NewTwitterIcon size={50} color={"#fff"} variant={"stroke"} />
-                </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/aryamaurya2014">
                   <Linkedin02Icon size={50} color={"#fff"} variant={"stroke"} />
+                </a>
+                <a href="https://www.linkedin.com/in/aryamaurya2014">
+                  <NewTwitterIcon size={50} color={"#fff"} variant={"stroke"} />
                 </a>
               </div>
             </div>
