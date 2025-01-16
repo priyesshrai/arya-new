@@ -2,6 +2,7 @@ import React from "react";
 import { InstagramIcon } from "hugeicons-react";
 import { NewTwitterIcon } from "hugeicons-react";
 import { Linkedin02Icon } from "hugeicons-react";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -60,7 +61,9 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="about-section-img"></div>
+          <div className="about-section-img">
+            <Image src="/images/me.png" width={1000} height={500} alt="ARYA MAURYA" />
+          </div>
         </div>
       </section>
     </div>
