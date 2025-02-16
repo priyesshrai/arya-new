@@ -16,7 +16,7 @@ export default function () {
     };
   }, [openModal]);
   return (
-    <section className="section">
+    <section className="section" id="contact">
       <div className="section-wraper">
         <div className="section-heading">
           <h2
@@ -27,6 +27,7 @@ export default function () {
               fontFamily: "var(--font-syne)",
               fontWeight: "700",
             }}
+            className="con-hed"
           >
             Contact Me
           </h2>

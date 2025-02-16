@@ -110,7 +110,7 @@ export default function Hero() {
             </div>
             <span>Meet my top clients.</span>
           </div>
-          <div className="hero-description">
+          <div className="hero-description" id="about">
             <p>Hi, I am</p>
             <Typewriter
               options={{

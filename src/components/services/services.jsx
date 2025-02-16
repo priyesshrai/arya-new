@@ -9,7 +9,7 @@ export default function Services() {
     setActiveTab(tab);
   };
   return (
-    <div className="w-full bg-dot-white/[0.5] relative flex items-center justify-center">
+    <div className="w-full bg-dot-white/[0.5] relative flex items-center justify-center" id="services">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-[#0a0a0a] [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
       <div className="section">
         <div className="section-wraper" style={{ flexDirection: "row" }}>
@@ -22,6 +22,7 @@ export default function Services() {
                 fontFamily: "var(--font-syne)",
                 fontWeight: "700",
               }}
+              className="h2-sty"
             >
               Empowering Brands Through Exceptional Design
             </h2>

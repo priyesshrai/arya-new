@@ -3,17 +3,17 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 export default function Clients() {
   return (
-    <section className="section">
-      <div className="section-wraper">
-        <div className="h-[30rem] rounded-md flex flex-col antialiased bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    // <section className="section">
+    //   <div className="section-wraper">
+        <div className="h-[30rem] w-full rounded-md flex flex-col antialiased bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"
             speed="slow"
           />
         </div>
-      </div>
-    </section>
+    //   </div>
+    // </section>
   );
 }
 const testimonials = [

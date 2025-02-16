@@ -11,7 +11,7 @@ export default function Portfolio() {
     setActiveTab(tab);
   };
   return (
-    <section className="section">
+    <section className="section" id="portfolio">
       <div className="section-wraper">
         <div className="section-heading">
           <h2
@@ -22,6 +22,7 @@ export default function Portfolio() {
               fontFamily: "var(--font-syne)",
               fontWeight: "700",
             }}
+            className="port-he"
           >
             Showcasing My Journey: Timeless Designs and Evolving Experiences
           </h2>
