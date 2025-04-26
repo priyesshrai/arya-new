@@ -100,7 +100,7 @@ export default function Hero() {
           <div className="hero-heading">
             <h1>
               Every design begins with a vision, and ends with a{" "}
-              <Cover>masterpiece</Cover>.
+              <Cover>masterpiece</Cover>
             </h1>
           </div>
 
@@ -116,8 +116,7 @@ export default function Hero() {
               options={{
                 strings: [
                   "Arya Maurya.",
-                  "UI/UX Designer.",
-                  "Graphic Designer.",
+                  "Creative Media Specialist.",
                 ],
                 autoStart: true,
                 loop: true,
@@ -128,7 +127,7 @@ export default function Hero() {
           <div className="hero-img-container">
             <div className="hero-img">
               <Image
-                src="/images/arya.png"
+                src="/images/photo-01.png"
                 className="my-img"
                 width={1000}
                 height={1000}

@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Syne } from "next/font/google";
 import { ReactLenis } from "lenis/react";
+import SmoothScrollProvider from "@/components/SmoothScroll";
 
 export const metadata = {
   title: "Arya Maurya - Graphic & UI/UX Portfolio",
@@ -18,9 +19,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${syne.variable}`}>
         {/* <ReactLenis root> */}
+        <SmoothScrollProvider>
           <main className="main">
             {children}
           </main>
+        </SmoothScrollProvider>
         {/* </ReactLenis> */}
       </body>
     </html>

@@ -27,9 +27,9 @@ export default function Skills() {
             <div className="section-card">
                 <Image src='/images/tools/03.png' width={5000} height={5000} alt="figma"/>
             </div>
-            <div className="section-card">
+            {/* <div className="section-card">
                 <Image src='/images/tools/04.png' width={5000} height={5000} alt="figma"/>
-            </div>
+            </div> */}
             <div className="section-card">
                 <Image src='/images/canva.png' width={5000} height={5000} alt="figma"/>
             </div>
@@ -39,9 +39,9 @@ export default function Skills() {
             <div className="section-card">
                 <Image src='/images/tools/06.png' width={5000} height={5000} alt="figma"/>
             </div>
-            <div className="section-card">
+            {/* <div className="section-card">
                 <Image src='/images/tools/07.png' width={5000} height={5000} alt="figma"/>
-            </div>
+            </div> */}
             <div className="section-card">
                 <Image src='/images/tools/08.png' width={5000} height={5000} alt="figma"/>
             </div>

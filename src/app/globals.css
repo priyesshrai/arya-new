@@ -206,7 +206,7 @@ body {
     font-size: 5rem;
   }
   span {
-    font-size: 8rem;
+    font-size: 5rem;
     font-family: "main";
     font-weight: 600;
   }
@@ -261,10 +261,10 @@ body {
     }
 
     .my-img {
-      width: 470px;
+      width: 550px;
       position: absolute;
-      top: -90px;
-      max-width: 470px;
+      top: -160px;
+      max-width: 570px;
       border-radius: 37% 63% 53% 47% / 34% 35% 65% 66%;
     }
 
@@ -514,6 +514,20 @@ body {
   flex: 1 0 40%;
   padding: 20px;
   text-align: left;
+}
+
+.abut-higlite-text{
+  font-size: 1.3rem;
+  background: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight:700;
+
 }
 
 .section-card-container {
@@ -774,10 +788,10 @@ footer {
     font-size: 4rem;
   }
   .hero-description p {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .hero-description span {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .about-section-img {
     flex: 1 0 20%;
@@ -813,7 +827,7 @@ footer {
     margin-top: 120px;
   }
   .hero-description span {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .hero-description p {
     font-size: 2.7rem;
@@ -867,7 +881,7 @@ footer {
     font-size: 1.8rem;
   }
   .hero-description span {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .hero-description p {
     font-size: 2.3rem;
@@ -945,7 +959,7 @@ footer {
     font-size: 2rem;
   }
   .hero-description span {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .hero-img-container .hero-img {
     width: 250px;
